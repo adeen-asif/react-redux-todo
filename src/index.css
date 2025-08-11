@@ -1,0 +1,26 @@
+body {
+  background-color: #fef4fb;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 192, 203, 0.2),
+    rgba(255, 192, 203, 0.2) 1px,
+    transparent 1px,
+    transparent 10px
+  );
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+}
+button {
+  background: none;
+  border: none;
+}
